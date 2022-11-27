@@ -1,3 +1,3 @@
-# Daily Practices
+# Practices
 
-* Vanella Js
+* Vanilla Js
