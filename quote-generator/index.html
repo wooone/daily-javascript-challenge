@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quote Generator</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <div class="quote-container" id="quote-container">
+    <!-- Quote -->
+    <div class="quote-text">
+      <i class="fas fa-quote-left"></i>
+      <span id="quote"></span>
+    </div>
+    <!-- Author -->
+    <div class="quote-author">
+      <div id="author"></div>
+    </div>
+    <!-- Buttons -->
+    <div class="button-container">
+      <button class="twitter-button" id="twitter" title="Tweet This!">
+        <i class="fab fa-twitter"></i>
+      </button>
+      <button id="new-quote">New Quote</button>
+    </div>
+  </div>
+  <!-- Loader -->
+  <div class="loader" id="loader"></div>
+  <!-- <script src="src/local-array.js"></script> -->
+  <script src="./src/main.js"></script>
+</body>
+
+</html>
